@@ -1,0 +1,56 @@
+
+  .logomenu {
+    height: 280px;
+    width: 500px;
+  }
+
+  .menu {
+    background-image: url("../imgs/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    color: rgb(0, 195, 255);
+    background-color: rgba(44, 44, 44, 0.801);
+    font-size: 25px;
+    border: 5px solid black;
+  }
+  
+  .buttons {
+    margin: 5px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.904);
+    border: 10px solid black;
+  }
+
+  .bnt-menus {
+	  padding:10px 25px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #330033, #1a001a);
+    border: 2px solid rgb(182, 182, 182);
+    transition: background-image 0.25s;
+  }
+
+  .bnt-menus:hover {
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #cc00cc, #660066);
+  }
+
+  .here{
+	  padding:10px 25px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #cc00cc, #660066);
+    border: 2px solid rgb(182, 182, 182);
+  }
+
+  .here:hover {
+    color: white;
+    cursor: pointer;
+  }
