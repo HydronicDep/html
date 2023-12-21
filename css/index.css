@@ -1,0 +1,234 @@
+* 
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    cursor: default;
+    text-align: center;
+    color: white;
+    border: 10px ridge rgb(114, 0, 129);
+  }
+
+  img {
+    height: 280px;
+    width: 500px;
+  }
+
+  .menu {
+    background-image: url("../imgs/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    color: rgb(0, 195, 255);
+    background-color: rgba(44, 44, 44, 0.801);
+    font-size: 25px;
+    border: 5px solid black;
+  }
+  
+  .buttons {
+    margin: 5px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.904);
+    border: 10px solid black;
+  }
+
+  .bnt-menus {
+	  padding:10px 25px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #330033, #1a001a);
+    border: 2px solid rgb(182, 182, 182);
+    transition: background-image 0.25s;
+  }
+
+  .bnt-menus:hover {
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #cc00cc, #660066);
+  }
+
+  .here{
+	  padding:10px 25px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #cc00cc, #660066);
+    border: 2px solid rgb(182, 182, 182);
+  }
+
+  .here:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+
+  .forum {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 2000px;
+    color: rgb(0, 195, 255);
+    background-color: rgba(44, 44, 44, 0.884);
+  }
+  
+  .conteudo {
+    margin-left: 20px;
+    display: flex;
+    justify-content: top;
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 55%;
+    box-sizing: border-box;
+  }
+  .conteudo2 {
+    padding-top: 15px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    min-width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .efeito-base1 {
+    visibility: hidden;
+  }
+  .efeito-base2 {
+    visibility: hidden;
+  }
+
+  .bnt-conteudo {
+    text-decoration: none;
+  }
+
+  .updateslink {
+    margin: 12px;
+    padding: 12px 80px;
+    min-width: 90%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.603);
+    background-blend-mode: color;
+    box-shadow: 0px 10px 40px rgb(0, 162, 255);
+  }
+  
+  .updatesbg1 {
+    background-image: url("../imgs/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  p {
+    margin-left: 15px;
+    font-size: 35px;
+  }
+  
+  .titleupdates {
+    font-style: bold;
+    font-size: 50px;
+  }
+
+  .minusculo {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .discordicon {
+    font-size: 25px;
+    box-shadow: 0px 5px 40px rgb(0, 255, 149);
+  }
+
+  .fa-discord {
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+  }
+
+  .divpainellogin {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 480px;
+    border: 10px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.603);
+    box-shadow: 0px 5px 40px rgb(0, 255, 149);
+    background-blend-mode: color;
+  }
+
+  .painellogin {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 15px 25px;
+    font-size: 35px;
+    font-style: bold;
+  }
+  
+  .painelinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .painelinputbtn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 15px 80px;
+    margin: 15px 45px;
+    border: 5px solid black;
+    border-radius: 50px;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0, 255, 149);
+    transition: font-size 0.25s;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-weight: 800;
+  }
+
+  .bnt-forgot {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+    transition: font-size 0.25s;
+  }
+
+  .painelinputbtn:hover, .bnt-forgot:hover {
+    font-size: 38px;
+    cursor: pointer;
+  }
+
+  .bnt-forgot:hover {
+    font-size: 28px;
+  }
