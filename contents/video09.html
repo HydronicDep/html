@@ -7,6 +7,30 @@
         <title>OL and UL Lists</title>
         <link rel="stylesheet" href="../css/menu.css">
         <link rel="stylesheet" href="../css/contents.css">
+        <style>
+            .certiss {
+              align-items: left;
+              text-align: left;
+            }
+        
+            .mist {
+              margin: 0px 40%;
+              min-width: 500px;
+              align-items: center;
+              text-align: left;
+            }
+        
+            dt {
+              font-size: 35px;
+              padding-bottom: 10px;
+            }
+        
+            dd {
+              font-size: 15px;
+              padding: 0px 15px;
+              border-bottom: 1px solid pink;
+            }
+        </style>
     </head>
     <body>
         <header class="menu">
@@ -23,7 +47,8 @@
             <hr>
             <h1>Listas</h1>
             <h2>Listas Ordenadas</h2>
-            <ol type="1">
+            <div class="mist">
+            <ol type="1" class="certiss">
                 <li>Acordar
                 <li>Escovar os Dentes
                 <li>Tomar Café
@@ -32,18 +57,23 @@
                 <li>Jogar
                 <li>Dormir
             </ol>
+            </div>
             <p>Foto</p>
-            <ol type="1" start="8">
+            <div class="mist">
+            <ol type="1" start="8" class="certiss">
                 <li>Acordar
                 <li>Dormir
             </ol>
+        </div>
             <h2>Lista Não Ordenadas</h2>
-            <ul type="disc">
+            <div class="mist">
+            <ul type="disc" class="certiss">
                 <li>Pão
                 <li>Açucar
                 <li>Café
                 <li>Requeijão
             </ul>
+        </div>
         </div>
         <footer>
             <p>Website create by Hydronic, All rights reserved &copy;</p>
