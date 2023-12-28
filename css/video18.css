@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 25px 50px #f0431c86;
+
+}
+
+body {
+    font-size: 20px;
+    background-image: linear-gradient(to right, #F29A2E, #F28A2E);
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+strong {
+    text-decoration: underline;
+    font-size: 25px;
+}
