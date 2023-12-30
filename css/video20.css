@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*
+    em HTML é ID    = em CSS é # (Só pode ter 1 id por html)
+    em HTML é CLASS = em CSS é . (Pode ser usado quantos quiser)
+    : = Pseudo-classes
+    :: = Pseudo-elements
+    > = children
+*/
+
+body {
+    background-color: #95EBB5;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    color: #375742;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #4A755A;
+}
+
+h3 {
+    font-size: 2em;
+    color: #649E79;
+}
+
+p {
+    font-size: 1.25em;
+    color: black;
+}
+
+#principal {
+    text-align: center;
+    color: #71C77B;
+    background-color: #000000;
+}
+
+.basico {
+    color: #739e5a;
+}
+
+.intermediario {
+    color: #9e9a5a;
+
+}
+
+.avancado {
+    color: #9e5a5a;
+
+}
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.295);
+}
+
+div {
+    display: inline-block;
+    background-color: lightgray;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.d1:hover {
+    background-color: rgb(21, 255, 0);
+}
+.d2:hover {
+    background-color: yellow;
+}
+
+.d3:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: #000000;
+}
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::before {
+    content: '⇥ [ ';
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a::after {
+    content: ' ] ⇤';
+    text-decoration: none;
+    font-weight: normal;
+}

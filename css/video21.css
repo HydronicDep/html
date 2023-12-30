@@ -1,0 +1,114 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgrey;
+}
+
+header {
+    background-image: url('../imgs/background.jpg');
+    margin: auto;
+    padding: 0px;
+}
+
+.logowebsite {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(255, 128, 255), rgb(136, 0, 136));
+    margin: 0px;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.473);
+}
+
+nav > a {
+    margin: 0px 3px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px white;
+    background-image: linear-gradient(to bottom, rgb(255, 207, 175), rgb(255, 153, 0));
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.473);
+}
+
+main {
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+}
+
+.aulaOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.levels {
+    background-color: lightgray;
+    border: 10px solid darkgray;
+    height: 50px;
+    width: 300px;
+    padding: 15px 5px;
+    outline: 5px groove black;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.473);
+    border-radius: 25px;
+}
+
+.circulo {
+    background-color: rgb(255, 255, 255);
+    background-image: url('../imgs/img-p.png');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    min-height: 100px;
+    width: 100px;
+    min-width: 100px;
+    border: 10px groove transparent;
+    border-image: url('../imgs/background.jpg') 190 repeat;
+    border-radius: 50%;
+}
+
+article {
+    padding: 10px 0px 0px 0px;
+    background-color: aqua;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+}
+
+article > h2 {
+    margin: 0px;
+}
+
+aside {
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.473);
+}
+
+aside > p {
+    padding: 3px;
+}
+
+footer {
+    background-color: black;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 10px;
+}
