@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: white;
+    font-family: 'NexaB';
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    height: 35vh;
+}
+
+header > h1 {
+    font-size: 8vw;
+}
+
+header > p {
+    display: block;
+    color: white;
+    font-weight: normal;
+}
+
+main {
+    background-color: white;
+    margin: 3vw, 0px;
+}
+
+article {
+    margin: 3vw, 0px;
+}
+
+article > p, div > p {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: 'Merienda';
+}
+
+
+.firstdiv {
+    background-color: aqua;
+}
+
+.seconddiv {
+    background-color: aqua;
+}
+
+.thirtdiv {
+    background-color: aqua;
+}
+
+footer {
+    background-color: black;
+    height: 4vw;
+    position: relative;
+}
+
+footer > p {
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
