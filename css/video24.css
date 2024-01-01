@@ -52,31 +52,46 @@ main {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
     line-height: 2em;
-}
-
-section.normal {
-    background-color: white;
-    color: black;
-    margin: 3vw, 0px;
-}
-
-section.img {
-    background-color: rgb(133, 133, 133);
-    color: white;
-}
-
-section.img > p {
-    background-color: rgba(0, 0, 0, 0.247);
-    width: 400px;
+    font-size: 3vw;
 }
 
 section > p {
     font-family: 'Merienda';
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+    margin: 3vw, 0px;
+    padding-left: 30px;
+}
 
+section.img {
+    background-color: rgb(133, 133, 133);
+    color: white;
+    padding: 7vw 0px 7vw 25px;
+    box-shadow: inset 6px 6px 13px 5px rgba(0, 0, 0, 0.288);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img > p {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.466);
+    text-shadow: 2px 3px 5px black;
+}
+
+section#img01 {
+    background-image: url(../desafio/ProjetoCordel/imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../desafio/ProjetoCordel/imagens/background002.jpg);
+    background-position: right center;
+}
 
 footer {
     background-color: black;
