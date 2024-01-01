@@ -5,8 +5,9 @@
     padding: 0px;
 }
 
-body {
-    background-color: rgb(255, 255, 255);
+html, body {
+    background-color: rgb(87, 87, 87);
+    min-height: 100vh;
 }
 
 h1 {
@@ -20,18 +21,25 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+
 header {
     text-align: center;
     background-color: black;
-    height: 35vh;
 }
 
 header > h1 {
-    font-size: 8vw;
+    padding-top: 50px;
+    font-size: 6vw;
+    font-variant: small-caps;
 }
 
+
 header > p {
-    display: block;
+    padding-bottom: 50px;
     color: white;
     font-weight: normal;
 }
@@ -41,53 +49,41 @@ main {
     margin: 3vw, 0px;
 }
 
-article {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
     margin: 3vw, 0px;
 }
 
-article > p, div > p {
-    margin-top: 2vw;
-    margin-left: 5vw;
-    font-size: 3vw;
-    font-weight: 700;
+section.img {
+    background-color: rgb(133, 133, 133);
+    color: white;
+}
+
+section.img > p {
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 400px;
+}
+
+section > p {
     font-family: 'Merienda';
 }
 
 
-.firstdiv {
-    background-color: aqua;
-}
-
-.seconddiv {
-    background-color: aqua;
-}
-
-.thirtdiv {
-    background-color: aqua;
-}
 
 footer {
     background-color: black;
-    height: 4vw;
-    position: relative;
+    text-align: center;
 }
 
 footer > p {
-    width: auto;
-    text-align: center;
+    padding: 10px;
     color: white;
-    font-size: 2vw;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-footer > p > a {
-    color: white;
-    font-weight: bold;
-}
-
-footer > p > a:hover {
-    text-decoration: underline;
 }
