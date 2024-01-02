@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    margin: 25px 0px;
+}
+
+
+header > h1 {
+    font-size: 3em;
+}
+
+header > p {
+    font-size: 1.5em;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+
+tr, td , th {
+    border: 1px solid black;
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+thead > tr > th {
+    padding: 8px 50px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+tbody > td, .media {
+    text-align: left;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-weight: bold;
+}
+
+.num {
+    text-align: center;
+}
+
+.esq {
+    text-align: left;
+}
+
+caption {
+    padding: 15px 0px;
+    font-size: 1.5em;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-weight: bold;
+}
+
+col.nomeg {
+    background-color: rgb(211, 211, 211);
+}
+
+col.grupo {
+    background-color: rgb(156, 156, 156);
+}
+
+table.produtos > tbody > tr:nth-child(even)  {
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+.container {
+    width: 95vw;
+    overflow-x: auto;
+    padding: 0px;
+}

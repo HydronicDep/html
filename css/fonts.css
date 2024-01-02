@@ -46,13 +46,19 @@ body {
 h1, h2 {
     font-family: 'Vast Shadow';
     font-weight: normal;
+    padding-bottom: 20px;
+    padding-left: 25px;
 }
 
 h3, h4, h5, h6 {
     font-family: 'Nexa';
+    padding-bottom: 20px;
+    padding-left: 25px;
 }
 
 p, div, span, a {
     font-family: 'inter';
     font-weight: bold;
+    padding: 0px 25px 25px 25px;
+    text-align: justify;
 }
