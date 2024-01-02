@@ -46,18 +46,15 @@ body {
 h1, h2 {
     font-family: 'Vast Shadow';
     font-weight: normal;
-    padding: 25px;
 }
 
 h3, h4, h5, h6 {
     font-family: 'Nexa';
-    padding: 20px
 }
 
 p, div, span{
     font-family: 'inter';
     font-weight: bold;
-    padding: 25px;
     text-align: justify;
 }
 
@@ -72,8 +69,4 @@ a {
 a:hover {
     text-decoration: underline;
     color: gray;
-}
-
-hr {
-    margin: 25px 0px;
 }

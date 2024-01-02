@@ -7,16 +7,26 @@
         <link rel="stylesheet" href="../css/fonts.css">
         <link rel="stylesheet" href="../css/video29.css">
         <style>
+            * {
+                margin: 0px;
+                padding: 16px;
+            }
 
         </style>
     </head>
     <body>
         <main>
             <h1>Criando Formularios</h1>
-            <form action="">
-                <p>Nome: <input type="text" name="nome" id="nome"></p> 
-                <p>Sobrenome: <input type="text" name="sobrenome" id="sobre"></p>
-                <p><input type="submit" value="Enviar"></p>
+            <form action="cadastro.php" autocomplete="off" method="post"> <!-- method : get (aparece na url) / post (não aparece na url)-->
+                <p>
+                    <label for="inome">Nome: </label>
+                        <input type="text" name="nome" id="inome">
+                </p>
+                <p>
+                    <label for="isobre">Sobrenome: </label>
+                        <input type="text" name="sobre" id="isobre">
+                </p>
+                <input type="submit" value="Enviar">
             </form>
         </main>
     </body>
