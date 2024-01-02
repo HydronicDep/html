@@ -7,26 +7,56 @@
         <link rel="stylesheet" href="../css/fonts.css">
         <link rel="stylesheet" href="../css/video27.css">
         <style>
-            iframe {
-                
+            iframe.meu {
+                width: 1200px;
+                height: 500px;
+                display: block;
+                margin: auto;
+            }
+
+            ul {
+                margin-left: 50px;
+            }
+
+            ul > li {
+                padding: 5px 0px;
+            }
+
+            .lista {
+                margin: 25px 15px;
+                border: 2px solid black;
+                width: 90vw;
+                height: 400px;
             }
         </style>
     </head>
     <body>
         <header>
             <hr>
-            <h1>Usando iFrames</h1>
+            <h1>Usando iFrame</h1>
             <hr>
         </header>
         <main>
-            <h2>Iframes com URL</h2>
+            <h2>Iframe com URL</h2>
             <!-- Tamanho Padrão do iframe w:300px h:150px-->
-            <p>Acesse o site do <iframe src="https://www.cursoemvideo.com" frameborder="0" width="800px" height="500px" scrolling="auto">Curso em Video</iframe> para aprender mais!</p>
+            <p>Acesse o site do <iframe src="https://www.cursoemvideo.com" frameborder="0" scrolling="auto">Curso em Video</iframe> para aprender mais!</p>
             <p>E pesquise no <iframe src="https://www.google.com.br" frameborder="0">Google</iframe>Como funciona a documentação! pena que não funciona no iframe</p>
             <hr>
-            <h2>Iframes com arquivos</h2>
-            <p></p>
+            <h2>Iframe com arquivos</h2>
+            <iframe src="../contents/video22.html" frameborder="0" class="meu"></iframe>
+            <hr>
+            <h2>Navegando no Iframe</h2>
+            <p>Escolha na lista abaixo</p>
+            <ul>
+                <li><a href="../download.html" target="frame">Primeira Página</a></li>
+                <li><a href="../information.html" target="frame">Segunda Página</a></li>
+                <li><a href="../register.html" target="frame">Terceira Página</a></li>
+            </ul>
+            <iframe name="frame" srcdoc="<h1> Escolha as opção acima</h1>" frameborder="0" class="lista">Infelismente Seu navegado não é compativel com esse conteudo</iframe><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus similique praesentium, explicabo distinctio incidunt qui non! Architecto ab deleniti commodi, dolor assumenda incidunt, totam libero optio asperiores culpa expedita.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic. Sit, delectus reiciendis. Ipsa similique neque maiores repellendus architecto. Odit blanditiis eius molestiae beatae, neque sint voluptate quidem unde dolore!</p>
         </main>
+        <hr>
         <footer>
 
         </footer>

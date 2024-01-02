@@ -54,11 +54,24 @@ h3, h4, h5, h6 {
     padding: 20px
 }
 
-p, div, span, a{
+p, div, span{
     font-family: 'inter';
     font-weight: bold;
     padding: 25px;
     text-align: justify;
+}
+
+a {
+    font-family: 'inter';
+    font-weight: bold;
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
 }
 
 hr {
