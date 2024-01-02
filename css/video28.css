@@ -1,0 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black url(../imgs/background.jpg) center center fixed;
+    background-size: cover;
+}

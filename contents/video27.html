@@ -55,10 +55,33 @@
             <iframe name="frame" srcdoc="<h1> Escolha as opção acima</h1>" frameborder="0" class="lista">Infelismente Seu navegado não é compativel com esse conteudo</iframe><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus similique praesentium, explicabo distinctio incidunt qui non! Architecto ab deleniti commodi, dolor assumenda incidunt, totam libero optio asperiores culpa expedita.</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic. Sit, delectus reiciendis. Ipsa similique neque maiores repellendus architecto. Odit blanditiis eius molestiae beatae, neque sint voluptate quidem unde dolore!</p>
+            <hr>
+            <h2>Iframe mais securo</h2>
+            <iframe src="../contents/cadastro.html" sandbox="sandbox" width="500px" height="400px" referrerpolicy="no-referrer">Err...: Navegador Não Compativel</iframe>
+            <iframe src="../contents/cadastro.html" sandbox="allow-same-origin allow-forms allow-scripts" width="500px" height="400px" referrerpolicy="no-referrer">Err...: Navegador Não Compativel</iframe>
+            <p><a href="#" onclick="clickou()">Click em mim</a></p>
+            <div id="saida"></div>
+            <hr>
+            <h2>Iframes Melhores</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit amet dignissimos perspiciatis deleniti, eveniet tempora. Iure quos laudantium facere magnam, praesentium iusto eius expedita. Debitis voluptatibus harum quod veritatis ipsa.</p>
+            <h3>videos</h3>
+            <iframe width="740" height="416" src="https://www.youtube.com/embed/dzhJsc1YszU" title="Dicas para iframes melhores - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>Mapas do Google</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14693.54756822423!2d-43.19090519484132!3d-22.97279632728621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd523d20f9c53%3A0x693c6132635e6b0d!2sCopacabana%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1704227811327!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>Mapas do Waze</h3>
+            <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-22.969442&lon=-43.186845&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+            <h3>Planilhas</h3>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4RodWweuKlIoK9o2diUy_CRnP23F8K_SX4rmoYqE8XuIvCO-w0cka6qeUccGjH4wQjNyK_crP32vF/pubhtml?widget=true&amp;headers=false" width="600" height="450"></iframe>
         </main>
         <hr>
         <footer>
 
         </footer>
+        <script>
+            function clickou() {
+                s = window.document.getElementById("saida")
+                s.innerHTML += '<p>Você Clickou! hehe!</p>'
+            }
+        </script>
     </body>
 </html>
