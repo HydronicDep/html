@@ -3,7 +3,36 @@
     padding: 0px;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
 body {
-    background: black url(../imgs/background.jpg) center center fixed;
+    background: transparent url("../desafio/ProjetoSocial/imagens/fundo-madeira.jpg") center center no-repeat fixed;
     background-size: cover;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone {
+    background: transparent url(../desafio/ProjetoSocial/imagens/frame-iphone.png) center center no-repeat fixed;
+    background-size: contain;
+    position: absolute; 
+    height: 627px;
+    width: 311px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 21px;
+    width: 269px;
+    height: 471px;
 }
