@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+}
+
+h1, h2 {
+    padding: 25px;
+}
+menu, ul {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(173, 173, 173);
+}
+
+li {
+    padding: 0px 25px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: "";
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+hr.menu {
+    margin: 0px;
+}
+
+article {
+    text-align: center;
+}
+
+article > p {
+    margin: 15px 20vw;
+}
