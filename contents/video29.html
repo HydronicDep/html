@@ -17,6 +17,7 @@
     <body>
         <main>
             <h1>Criando Formularios</h1>
+            <h2>Básico</h2>
             <form action="cadastro.php" autocomplete="off" method="post"> <!-- method : get (aparece na url) / post (não aparece na url)-->
                 <p>
                     <label for="inome">Nome: </label>
@@ -26,6 +27,13 @@
                     <label for="isobre">Sobrenome: </label>
                         <input type="text" name="sobre" id="isobre">
                 </p>
+                <input type="submit" value="Enviar">
+            </form>
+            <hr>
+            <h2>Com Obrigatoriedade</h2>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p><label for="iuso">Usuário: * <input type="text" name="usu" id="iusu" required minlength="8" maxlength="18" size="25" placeholder="Seu Usuario:" autocomplete="username"></label></p>
+                <p><label for="ipas">Senha: * <input type="password" name="pas" id="ipas" required minlength="8" maxlength="16" size="25" placeholder="Sua Senha:" autocomplete="current-password"></label></p>
                 <input type="submit" value="Enviar">
             </form>
         </main>
