@@ -126,6 +126,80 @@
                     <!-- File só pode ser usado no method : POST -->
                     <label for="ifoto">Foto de Perfil: <input type="file" name="foto" id="ifoto"></label>
                 </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+            <hr>
+            <h2>Fora das Tags INPUT</h2>
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="iest">Estado: <select name="est" id="iest">
+                        <option value="">- Selecione um Estado -</option>
+                        <optgroup label="Região Sudeste">
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="ES">Espirito Santo</option>
+                        </optgroup>
+                    </select></label>
+                </p>
+                <p>
+                    <label for="iprof">Profissão: <input type="text" name="prof" id="iprof" list="profs"></label>
+                    <datalist id="profs">
+                        <option>Administrador</option>
+                        <option>Comtabilizador</option>
+                        <option>Uber</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="imsg">Mensagem: </label> <br>
+                    <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Text"></textarea>
+                </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+            <hr>
+            <h2>Aprendendo os Output</h2>
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="in1">Numero 1: </label>
+                    <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                </p>
+                <p>
+                    <label for="in2">Numero 2: </label>
+                    <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                </p>
+                <p>
+                    <label for="isoma">Soma: </label>
+                    <output name="soma" id="isoma">0</output>
+                </p>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+            <hr>
+            <h2>Outra funcionabilidade</h2>
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="inumb1">Numero 1: </label>
+                    <input type="range" name="numb1" id="inumb1" min="0" max="100" value="25" 
+                    oninput="ival1.innerHTML = Number(inumb1.value)">
+                    <output id="ival1">50</output>
+                </p>
+                <p>
+                    <label for="inumb2">Numero 2: </label>
+                    <input type="range" name="numb2" id="inumb2" min="0" max="100" value="25" 
+                    oninput="ival2.innerHTML = Number(inumb2.value)">
+                    <output id="ival2">50</output>
+                </p>
+                <p>
+                    <label for="iidade">Ano que Você Nasceu: </label>
+                    <input type="number" name="idade" id="iidade" min="1900" max="2024" value="2000" 
+                    oninput="iidadec.innerHTML = 'Sua Idade: ' + Number(2024 - (Number(iidade.value)))">
+                    <output id="iidadec">Sua Idade: 0</output>
+                </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
             </form>
         </main>
     </body>
