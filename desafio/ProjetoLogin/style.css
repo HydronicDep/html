@@ -49,10 +49,9 @@ main {
     background-size: cover;
 }
 
-form label {
+label.invisi {
     display: none;
 }
-
 #formulario {
     display: block;
     padding: 10px;
@@ -89,7 +88,7 @@ form label {
 
 .campo > input {
     background-color: var(--cor0);
-    font-size: 0.9em;
+    font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
     border: none;
