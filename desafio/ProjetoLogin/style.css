@@ -49,7 +49,7 @@ main {
     background-size: cover;
 }
 
-label.invisi {
+label.invisi { /* Se não for em uma classe ele buga */
     display: none;
 }
 #formulario {
